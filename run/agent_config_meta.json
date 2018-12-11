@@ -1,0 +1,363 @@
+{
+  "mysql": {
+    "client": {
+      "host": "F:\\projects\\adminAPI\\config\\config.default.js",
+      "port": "F:\\projects\\adminAPI\\config\\config.default.js",
+      "user": "F:\\projects\\adminAPI\\config\\config.default.js",
+      "password": "F:\\projects\\adminAPI\\config\\config.default.js",
+      "database": "F:\\projects\\adminAPI\\config\\config.default.js"
+    },
+    "app": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "agent": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "default": {
+      "database": "F:\\projects\\adminAPI\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "F:\\projects\\adminAPI\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "F:\\projects\\adminAPI\\config\\config.default.js",
+      "ignoreJSON": "F:\\projects\\adminAPI\\config\\config.default.js",
+      "useSession": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "jwt": {
+    "secret": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "expiresIn": {
+      "expiresIn": "F:\\projects\\adminAPI\\config\\config.default.js"
+    },
+    "enable": "F:\\projects\\adminAPI\\node_modules\\egg-jwt\\config\\config.default.js"
+  },
+  "cluster": {
+    "listen": {
+      "port": "F:\\projects\\adminAPI\\config\\config.default.js",
+      "path": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "allowMethods": "F:\\projects\\adminAPI\\config\\config.default.js"
+  },
+  "sequelize": {
+    "dialect": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "host": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "port": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "database": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "username": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "password": "F:\\projects\\adminAPI\\config\\config.default.js"
+  },
+  "knex": {
+    "client": {
+      "dialect": "F:\\projects\\adminAPI\\config\\config.default.js",
+      "connection": {
+        "host": "F:\\projects\\adminAPI\\config\\config.default.js",
+        "port": "F:\\projects\\adminAPI\\config\\config.default.js",
+        "user": "F:\\projects\\adminAPI\\config\\config.default.js",
+        "password": "F:\\projects\\adminAPI\\config\\config.default.js",
+        "database": "F:\\projects\\adminAPI\\config\\config.default.js"
+      },
+      "pool": {
+        "min": "F:\\projects\\adminAPI\\config\\config.default.js",
+        "max": "F:\\projects\\adminAPI\\config\\config.default.js"
+      },
+      "acquireConnectionTimeout": "F:\\projects\\adminAPI\\config\\config.default.js"
+    },
+    "app": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "agent": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "default": {
+      "dialect": "F:\\projects\\adminAPI\\node_modules\\egg-knex\\config\\config.default.js",
+      "connection": {
+        "database": "F:\\projects\\adminAPI\\node_modules\\egg-knex\\config\\config.default.js"
+      },
+      "pool": {
+        "min": "F:\\projects\\adminAPI\\node_modules\\egg-knex\\config\\config.default.js",
+        "max": "F:\\projects\\adminAPI\\node_modules\\egg-knex\\config\\config.default.js"
+      },
+      "acquireConnectionTimeout": "F:\\projects\\adminAPI\\node_modules\\egg-knex\\config\\config.default.js"
+    }
+  },
+  "view": {
+    "root": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "mapping": {
+      ".html": "F:\\projects\\adminAPI\\config\\config.default.js"
+    },
+    "cache": "F:\\projects\\adminAPI\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "F:\\projects\\adminAPI\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "F:\\projects\\adminAPI\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "dir": "F:\\projects\\adminAPI\\config\\config.default.js",
+    "dynamic": "F:\\projects\\adminAPI\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "F:\\projects\\adminAPI\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "F:\\projects\\adminAPI\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "F:\\projects\\adminAPI\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "keys": "F:\\projects\\adminAPI\\config\\config.default.js",
+  "middleware": "F:\\projects\\adminAPI\\config\\config.default.js",
+  "session": {
+    "maxAge": "F:\\projects\\adminAPI\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "F:\\projects\\adminAPI\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "F:\\projects\\adminAPI\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "F:\\projects\\adminAPI\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "F:\\projects\\adminAPI\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "F:\\projects\\adminAPI\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "F:\\projects\\adminAPI\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "F:\\projects\\adminAPI\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "F:\\projects\\adminAPI\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "F:\\projects\\adminAPI\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "F:\\projects\\adminAPI\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "F:\\projects\\adminAPI\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "F:\\projects\\adminAPI\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "F:\\projects\\adminAPI\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "F:\\projects\\adminAPI\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "F:\\projects\\adminAPI\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "F:\\projects\\adminAPI\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "F:\\projects\\adminAPI\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "F:\\projects\\adminAPI\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "F:\\projects\\adminAPI\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "F:\\projects\\adminAPI\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "F:\\projects\\adminAPI\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "F:\\projects\\adminAPI\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "F:\\projects\\adminAPI\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "F:\\projects\\adminAPI\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "F:\\projects\\adminAPI\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "F:\\projects\\adminAPI\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "F:\\projects\\adminAPI\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "F:\\projects\\adminAPI\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "F:\\projects\\adminAPI\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "F:\\projects\\adminAPI\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "F:\\projects\\adminAPI\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "F:\\projects\\adminAPI\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "F:\\projects\\adminAPI\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "F:\\projects\\adminAPI\\node_modules\\egg-schedule\\config\\config.default.js"
+    },
+    "knex": {
+      "file": "F:\\projects\\adminAPI\\node_modules\\egg-knex\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "F:\\projects\\adminAPI\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "F:\\projects\\adminAPI\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "F:\\projects\\adminAPI\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "F:\\projects\\adminAPI\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "F:\\projects\\adminAPI\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "F:\\projects\\adminAPI\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "F:\\projects\\adminAPI\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "F:\\projects\\adminAPI\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "F:\\projects\\adminAPI\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "F:\\projects\\adminAPI\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "F:\\projects\\adminAPI\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "F:\\projects\\adminAPI\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+  "name": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "version": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "description": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "private": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "axios": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-jwt": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-knex": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-static": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-assets": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "jsonwebtoken": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "qiniu": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "request": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "sha1": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "stop": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "dev": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "debug": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "test": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "cov": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "lint": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "ci": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "autod": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "url": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "license": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "strict": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "depth": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "env": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "level": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "logging": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\config.default.js"
+}
