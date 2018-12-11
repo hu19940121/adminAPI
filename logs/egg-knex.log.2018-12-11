@@ -1,0 +1,26 @@
+2018-12-11 23:42:20,502 INFO 1492 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-11 23:42:21,145 INFO 1492 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '6eb30368-a982-498f-b23b-edfccb900dc9' }
+2018-12-11 23:42:21,184 INFO 1492 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-11 23:42:21,184 INFO 1492 [egg-knex] instance[0] status OK
+2018-12-11 23:46:30,024 INFO 1492 [egg-knex] { method: 'select',
+  options: {},
+  timeout: false,
+  cancelOnTimeout: false,
+  bindings: [],
+  __knexQueryUid: 'd0330f23-ca7c-4fd7-bd4f-2c252d481bfa',
+  sql: 'select * from `post`' }
+2018-12-11 23:46:30,098 INFO 1492 [egg-knex] explains of select * from `post`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"post","type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":2,"Extra":null}]
+2018-12-11 23:46:30,099 INFO 1492 [egg-knex] { method: 'select',
+  options: {},
+  timeout: false,
+  cancelOnTimeout: false,
+  bindings: [],
+  __knexQueryUid: '923f475c-91db-4d51-bd92-73f798f7fa91',
+  sql: 'select * from `user`' }
+2018-12-11 23:46:30,172 INFO 1492 [egg-knex] explains of select * from `user`
+=====> result: [{"id":1,"select_type":"SIMPLE","table":"user","type":"ALL","possible_keys":null,"key":null,"key_len":null,"ref":null,"rows":2,"Extra":null}]

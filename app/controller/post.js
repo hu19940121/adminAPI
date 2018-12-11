@@ -23,6 +23,30 @@ const Controller = require('egg').Controller;
 					msg:'success'
 				}
 			}
+    }
+    async addPost() {
+      const { ctx, app } = this
+      const acceptData = ctx.request.body; //接受post提交过来的参数
+      if (!acceptData) {
+        return;
+      }
+      acceptData.create_time = new Date().getTime()
+      const res = await app.knex('post').insert(acceptData)
+      let data= {}
+      if (res) {
+        data = {
+          message: '新增成功',
+          data: null,
+          code: 0,
+        };
+      } else {
+        data = {
+          message: '新增失败',
+          data: null,
+          code: -1,
+        };
+      }
+      ctx.body = data
 		}
 	}
 module.exports = PostController;

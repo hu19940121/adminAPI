@@ -50,4 +50,6 @@ module.exports = app => {
 
   //webapp api v1
   router.get('/api/v1/post/list', controller.post.list); // 帖子列表
+  router.post('/api/v1/post/addPost', controller.post.addPost); // 帖子列表
+
 };

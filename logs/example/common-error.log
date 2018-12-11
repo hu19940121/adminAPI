@@ -1,0 +1,39 @@
+2018-12-12 00:54:20,734 ERROR 3120 [-/127.0.0.1/-/94ms POST /api/v1/post/addPost] nodejs.ReferenceError: data is not defined
+    at PostController.addPost (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/post.js:36:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3120
+hostname: josiedeMacBook-Pro.local
+
+2018-12-12 00:57:55,949 ERROR 3389 [-/127.0.0.1/-/82ms POST /api/v1/post/addPost] nodejs.ReferenceError: data is not defined
+    at PostController.addPost (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/post.js:36:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3389
+hostname: josiedeMacBook-Pro.local
+
+2018-12-12 01:00:11,391 ERROR 3389 [-/127.0.0.1/-/157ms POST /api/v1/post/addPost] nodejs.ReferenceError: data is not defined
+    at PostController.addPost (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/post.js:36:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3389
+hostname: josiedeMacBook-Pro.local
+
+2018-12-12 01:00:34,024 ERROR 3389 [-/127.0.0.1/-/62ms POST /api/v1/post/addPost] nodejs.ReferenceError: data is not defined
+    at PostController.addPost (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/post.js:36:14)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3389
+hostname: josiedeMacBook-Pro.local
+
+2018-12-12 01:01:05,291 ERROR 3530 [-/127.0.0.1/-/81ms POST /api/v1/post/addPost] nodejs.ReferenceError: data is not defined
+    at PostController.addPost (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/post.js:36:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3530
+hostname: josiedeMacBook-Pro.local
+

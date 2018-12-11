@@ -1,0 +1,5 @@
+2018-12-11 23:42:17,198 INFO 1490 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-11 23:42:18,596 INFO 1490 [egg:core] dump config after load, 5ms
+2018-12-11 23:42:18,651 INFO 1490 [egg-watcher:agent] watcher start success
+2018-12-11 23:42:19,083 INFO 1490 [egg-sequelize](41ms) Executed (default): SELECT 1+1 AS result
+2018-12-11 23:42:19,095 INFO 1490 [egg:core] dump config after ready, 9ms

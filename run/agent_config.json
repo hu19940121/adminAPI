@@ -73,7 +73,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "F:\\projects\\adminAPI\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -85,8 +85,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "F:\\projects\\adminAPI\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "F:\\projects\\adminAPI\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -110,10 +110,10 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "F:\\projects\\adminAPI\\logs\\example\\egg-schedule.log"
+        "file": "/Users/abc/Documents/workspace/kaier/adminAPI/logs/example/egg-schedule.log"
       },
       "knex": {
-        "file": "F:\\projects\\adminAPI\\logs\\egg-knex.log"
+        "file": "/Users/abc/Documents/workspace/kaier/adminAPI/logs/egg-knex.log"
       }
     },
     "logrotator": {
@@ -127,14 +127,14 @@
     },
     "static": {
       "prefix": "/static",
-      "dir": "F:\\projects\\adminAPI\\app\\public",
+      "dir": "/Users/abc/Documents/workspace/kaier/adminAPI/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "F:\\projects\\adminAPI\\app\\view",
+      "root": "/Users/abc/Documents/workspace/kaier/adminAPI/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -277,9 +277,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "F:\\projects\\adminAPI",
-    "HOME": "C:\\Users\\hsh",
-    "rundir": "F:\\projects\\adminAPI\\run",
+    "baseDir": "/Users/abc/Documents/workspace/kaier/adminAPI",
+    "HOME": "/Users/abc",
+    "rundir": "/Users/abc/Documents/workspace/kaier/adminAPI/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -309,7 +309,7 @@
       }
     },
     "logger": {
-      "dir": "F:\\projects\\adminAPI\\logs\\example",
+      "dir": "/Users/abc/Documents/workspace/kaier/adminAPI/logs/example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -384,8 +384,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-session",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -397,8 +397,8 @@
         "session"
       ],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-security",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security",
       "version": "2.3.1"
     },
     "jsonp": {
@@ -410,8 +410,8 @@
         "security"
       ],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-jsonp",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -423,8 +423,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-onerror",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -434,8 +434,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-i18n",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -445,8 +445,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-watcher",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -456,8 +456,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-multipart",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart",
       "version": "2.1.0"
     },
     "development": {
@@ -471,8 +471,8 @@
       "env": [
         "local"
       ],
-      "from": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-development",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development",
       "version": "2.4.1"
     },
     "schedule": {
@@ -482,8 +482,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-schedule",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-schedule",
       "version": "3.4.0"
     },
     "logrotator": {
@@ -495,8 +495,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-logrotator",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -506,8 +506,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-static",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -517,8 +517,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\node_modules\\egg\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-view",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-view",
       "version": "2.1.0"
     },
     "mysql": {
@@ -528,8 +528,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-mysql",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-mysql",
       "version": "3.0.0"
     },
     "jwt": {
@@ -541,8 +541,8 @@
         "onerror"
       ],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-jwt",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-jwt",
       "version": "3.1.1"
     },
     "knex": {
@@ -552,8 +552,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-knex",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-knex",
       "version": "2.0.10"
     },
     "nunjucks": {
@@ -566,8 +566,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-view-nunjucks",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-view-nunjucks",
       "version": "2.2.0"
     },
     "cors": {
@@ -577,8 +577,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-cors",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-cors",
       "version": "2.1.1"
     },
     "sequelize": {
@@ -588,8 +588,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "F:\\projects\\adminAPI\\config\\plugin.js",
-      "path": "F:\\projects\\adminAPI\\node_modules\\egg-sequelize",
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-sequelize",
       "version": "4.2.0"
     }
   }

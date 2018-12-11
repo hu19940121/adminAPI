@@ -1,0 +1,6 @@
+2018-12-12 00:50:55,291 INFO 3028 [egg-sequelize](33ms) Executed (default): SELECT 1+1 AS result
+2018-12-12 00:51:28,429 INFO 3120 [egg-sequelize](31ms) Executed (default): SELECT 1+1 AS result
+2018-12-12 00:57:53,778 INFO 3389 [egg-sequelize](38ms) Executed (default): SELECT 1+1 AS result
+2018-12-12 01:00:36,922 INFO 3515 [egg-sequelize](39ms) Executed (default): SELECT 1+1 AS result
+2018-12-12 01:01:02,264 INFO 3530 [egg-sequelize](40ms) Executed (default): SELECT 1+1 AS result
+2018-12-12 01:03:45,358 INFO 3664 [egg-sequelize](33ms) Executed (default): SELECT 1+1 AS result
