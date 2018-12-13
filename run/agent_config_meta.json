@@ -92,6 +92,22 @@
     "username": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
     "password": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js"
   },
+  "multipart": {
+    "mode": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
+    "autoFields": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
   "knex": {
     "client": {
       "dialect": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
@@ -139,6 +155,18 @@
     "buffer": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-static/config/config.default.js",
     "maxFiles": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-static/config/config.default.js"
   },
+  "oss": {
+    "enable": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
+    "package": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
+    "useAgent": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
+    "client": {
+      "accessKeyId": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
+      "accessKeySecret": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
+      "bucket": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
+      "endpoint": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
+      "timeout": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js"
+    }
+  },
   "keys": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
   "middleware": "/Users/abc/Documents/workspace/kaier/adminAPI/config/config.default.js",
   "session": {
@@ -174,24 +202,6 @@
       "development": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-watcher/config/config.default.js"
     }
   },
-  "multipart": {
-    "autoFields": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/config.default.js"
-  },
-  "development": {
-    "watchDirs": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/config/config.default.js"
-  },
   "customLogger": {
     "scheduleLogger": {
       "consoleLevel": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-schedule/config/config.default.js",
@@ -200,6 +210,13 @@
     "knex": {
       "file": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-knex/config/config.default.js"
     }
+  },
+  "development": {
+    "watchDirs": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/config/config.default.js"
   },
   "logrotator": {
     "filesRotateByHour": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/config/config.default.js",
@@ -234,7 +251,9 @@
       "egg-cors": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/config.default.js",
       "egg-jwt": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/config.default.js",
       "egg-knex": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/config.default.js",
+      "egg-multipart": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/config.default.js",
+      "egg-oss": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/config.default.js",
       "egg-sequelize": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/config.default.js",
       "egg-static": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/config.default.js",

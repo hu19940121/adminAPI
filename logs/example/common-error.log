@@ -1,39 +1,852 @@
-2018-12-12 00:54:20,734 ERROR 3120 [-/127.0.0.1/-/94ms POST /api/v1/post/addPost] nodejs.ReferenceError: data is not defined
-    at PostController.addPost (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/post.js:36:14)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:182:7)
+2018-12-13 11:11:02,168 ERROR 2208 [-/127.0.0.1/-/9ms POST /api/v1/uploadToQiniu/uploadImage] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:9:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
 headers: {"Access-Control-Allow-Origin":"*"}
-pid: 3120
+pid: 2208
 hostname: josiedeMacBook-Pro.local
 
-2018-12-12 00:57:55,949 ERROR 3389 [-/127.0.0.1/-/82ms POST /api/v1/post/addPost] nodejs.ReferenceError: data is not defined
-    at PostController.addPost (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/post.js:36:14)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:182:7)
+2018-12-13 11:12:25,912 ERROR 2460 [-/127.0.0.1/-/30ms POST /api/v1/uploadToQiniu/uploadImage] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
 headers: {"Access-Control-Allow-Origin":"*"}
-pid: 3389
+pid: 2460
 hostname: josiedeMacBook-Pro.local
 
-2018-12-12 01:00:11,391 ERROR 3389 [-/127.0.0.1/-/157ms POST /api/v1/post/addPost] nodejs.ReferenceError: data is not defined
-    at PostController.addPost (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/post.js:36:14)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:182:7)
+2018-12-13 11:14:03,265 ERROR 2460 [-/127.0.0.1/-/2ms POST /api/v1/uploadToQiniu/uploadImage] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
 headers: {"Access-Control-Allow-Origin":"*"}
-pid: 3389
+pid: 2460
 hostname: josiedeMacBook-Pro.local
 
-2018-12-12 01:00:34,024 ERROR 3389 [-/127.0.0.1/-/62ms POST /api/v1/post/addPost] nodejs.ReferenceError: data is not defined
-    at PostController.addPost (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/post.js:36:14)
-    at <anonymous>
+2018-12-13 11:16:13,359 ERROR 2631 [-/127.0.0.1/-/26ms POST /api/v1/uploadToQiniu/uploadImage] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
 headers: {"Access-Control-Allow-Origin":"*"}
-pid: 3389
+pid: 2631
 hostname: josiedeMacBook-Pro.local
 
-2018-12-12 01:01:05,291 ERROR 3530 [-/127.0.0.1/-/81ms POST /api/v1/post/addPost] nodejs.ReferenceError: data is not defined
-    at PostController.addPost (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/post.js:36:14)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:182:7)
+2018-12-13 11:16:48,638 ERROR 2649 [-/127.0.0.1/-/21ms POST /api/v1/uploadToQiniu/uploadImage] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
 headers: {"Access-Control-Allow-Origin":"*"}
-pid: 3530
+pid: 2649
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 11:24:30,033 ERROR 2649 [-/127.0.0.1/-/10ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{%20ctx.csrf%20|%20safe%20}}] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 2649
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 11:25:17,290 ERROR 2649 [-/127.0.0.1/-/2ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{%20ctx.csrf%20|%20safe%20}}] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 2649
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 11:25:40,083 ERROR 2649 [-/127.0.0.1/-/3ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{ctx.csrf|safe}}] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 2649
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 11:42:28,714 ERROR 2649 [-/127.0.0.1/-/4ms POST /api/v1/uploadToQiniu/uploadImage] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 2649
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 11:43:22,325 ERROR 3126 [-/127.0.0.1/-/34ms POST /api/v1/uploadToQiniu/uploadImage] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3126
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 11:46:40,152 ERROR 3126 [-/127.0.0.1/-/3ms POST /api/v1/uploadToQiniu/uploadImage] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3126
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 11:47:09,343 ERROR 3126 [-/127.0.0.1/-/1ms POST /api/v1/uploadToQiniu/uploadImage] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3126
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 11:47:31,453 ERROR 3126 [-/127.0.0.1/-/2ms POST /api/v1/uploadToQiniu/uploadImage] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3126
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 12:49:53,920 ERROR 3322 [-/127.0.0.1/-/16ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{%20ctx.csrf%20|%20safe%20}}] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3322
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 12:49:59,551 ERROR 3322 [-/127.0.0.1/-/3ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{%20ctx.csrf%20|%20safe%20}}] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3322
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 12:51:10,484 ERROR 3322 [-/127.0.0.1/-/1ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{ctx.csrf|safe}}] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3322
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 12:55:21,643 ERROR 3322 [-/127.0.0.1/-/1ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{ctx.csrf|safe}}] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 3322
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 12:58:10,592 ERROR 5082 [-/127.0.0.1/-/25ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{ctx.csrf|safe}}] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5082
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:01:54,202 ERROR 5327 [-/127.0.0.1/-/7ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{ctx.csrf|safe}}] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5327
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:02:23,843 ERROR 5327 [-/127.0.0.1/-/2ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{ctx.csrf|safe}}] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5327
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:03:06,859 ERROR 5327 [-/127.0.0.1/-/1ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5327
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:05:42,277 ERROR 5567 [-/127.0.0.1/-/15ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5567
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:15:12,283 ERROR 6108 [-/127.0.0.1/-/20ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.TypeError: Cannot read property '0' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:11:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at xssProtection (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/xssProtection.js:7:11)
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6108
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:16:51,640 ERROR 6164 [-/127.0.0.1/-/75ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.ReferenceError: path is not defined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:14:44)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/middleware/multipart.js:96:12)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6164
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:17:16,936 ERROR 6164 [-/127.0.0.1/-/11ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.ReferenceError: path is not defined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:14:44)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/middleware/multipart.js:96:12)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6164
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:17:17,162 ERROR 6164 [-/127.0.0.1/-/10ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.ReferenceError: path is not defined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:14:44)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/middleware/multipart.js:96:12)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6164
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:17:38,309 ERROR 6287 [-/127.0.0.1/-/59ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.ReferenceError: path is not defined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:14:44)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/middleware/multipart.js:96:12)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6287
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:19:24,126 ERROR 6344 [-/127.0.0.1/-/76ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.TypeError: Cannot read property 'put' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:19:32)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/middleware/multipart.js:96:12)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6344
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:20:24,056 ERROR 6403 [-/127.0.0.1/-/76ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.TypeError: Cannot read property 'put' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:21:32)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/middleware/multipart.js:96:12)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6403
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:28:11,126 ERROR 6925 [-/127.0.0.1/-/56ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.TypeError: Cannot read property 'put' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:21:32)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/middleware/multipart.js:96:12)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6925
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:29:52,405 ERROR 6983 [-/127.0.0.1/-/77ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.TypeError: Cannot read property 'put' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:21:32)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/middleware/multipart.js:96:12)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 6983
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:32:09,710 ERROR 7142 [-/127.0.0.1/-/73ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.ReferenceError: app is not defined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:21:9)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/middleware/multipart.js:96:12)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 7142
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:32:39,546 ERROR 7180 [-/127.0.0.1/-/60ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.TypeError: Cannot read property 'put' of undefined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:21:37)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/middleware/multipart.js:96:12)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 7180
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:37:55,279 ERROR 7595 [-/127.0.0.1/-/63ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.ReferenceError: name is not defined
+    at UploadToQiniuController.uploadImage (/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js:15:33)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at multipart (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/middleware/multipart.js:96:12)
+    at <anonymous>
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 7595
 hostname: josiedeMacBook-Pro.local
 

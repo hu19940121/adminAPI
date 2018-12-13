@@ -1,0 +1,248 @@
+2018-12-12 00:00:01,100 INFO 1492 [egg-logrotator] app logger reload: got log-reload message
+2018-12-12 00:50:49,972 INFO 3028 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 00:50:50,155 INFO 3028 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 00:50:50,155 INFO 3028 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 00:50:50,290 INFO 3028 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 00:50:54,302 INFO 3028 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 00:50:54,314 INFO 3028 [egg-security] use methodnoallow middleware
+2018-12-12 00:50:54,319 INFO 3028 [egg-security] use noopen middleware
+2018-12-12 00:50:54,324 INFO 3028 [egg-security] use nosniff middleware
+2018-12-12 00:50:54,329 INFO 3028 [egg-security] use xssProtection middleware
+2018-12-12 00:50:54,331 INFO 3028 [egg-security] use xframe middleware
+2018-12-12 00:50:54,339 INFO 3028 [egg-security] use dta middleware
+2018-12-12 00:50:54,339 INFO 3028 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 00:50:54,649 INFO 3028 [egg:core] dump config after load, 8ms
+2018-12-12 00:50:54,853 INFO 3028 [egg-watcher:app] watcher start success
+2018-12-12 00:50:54,970 INFO 3028 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 00:50:54 GMT+0800 (CST)
+2018-12-12 00:50:55,323 INFO 3028 [egg:core] dump config after ready, 23ms
+2018-12-12 00:51:24,662 INFO 3120 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 00:51:24,924 INFO 3120 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 00:51:24,924 INFO 3120 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 00:51:25,021 INFO 3120 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 00:51:27,811 INFO 3120 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 00:51:27,816 INFO 3120 [egg-security] use methodnoallow middleware
+2018-12-12 00:51:27,817 INFO 3120 [egg-security] use noopen middleware
+2018-12-12 00:51:27,819 INFO 3120 [egg-security] use nosniff middleware
+2018-12-12 00:51:27,821 INFO 3120 [egg-security] use xssProtection middleware
+2018-12-12 00:51:27,823 INFO 3120 [egg-security] use xframe middleware
+2018-12-12 00:51:27,824 INFO 3120 [egg-security] use dta middleware
+2018-12-12 00:51:27,824 INFO 3120 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 00:51:27,985 INFO 3120 [egg:core] dump config after load, 9ms
+2018-12-12 00:51:28,052 INFO 3120 [egg-watcher:app] watcher start success
+2018-12-12 00:51:28,141 INFO 3120 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 00:51:27 GMT+0800 (CST)
+2018-12-12 00:51:28,444 INFO 3120 [egg:core] dump config after ready, 8ms
+2018-12-12 00:57:50,372 INFO 3389 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 00:57:50,721 INFO 3389 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 00:57:50,722 INFO 3389 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 00:57:50,785 INFO 3389 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 00:57:53,093 INFO 3389 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 00:57:53,098 INFO 3389 [egg-security] use methodnoallow middleware
+2018-12-12 00:57:53,099 INFO 3389 [egg-security] use noopen middleware
+2018-12-12 00:57:53,102 INFO 3389 [egg-security] use nosniff middleware
+2018-12-12 00:57:53,104 INFO 3389 [egg-security] use xssProtection middleware
+2018-12-12 00:57:53,107 INFO 3389 [egg-security] use xframe middleware
+2018-12-12 00:57:53,109 INFO 3389 [egg-security] use dta middleware
+2018-12-12 00:57:53,109 INFO 3389 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 00:57:53,301 INFO 3389 [egg:core] dump config after load, 9ms
+2018-12-12 00:57:53,365 INFO 3389 [egg-watcher:app] watcher start success
+2018-12-12 00:57:53,494 INFO 3389 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 00:57:53 GMT+0800 (CST)
+2018-12-12 00:57:53,790 INFO 3389 [egg:core] dump config after ready, 9ms
+2018-12-12 01:00:34,385 INFO 3515 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 01:00:34,447 INFO 3515 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 01:00:34,447 INFO 3515 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 01:00:34,488 INFO 3515 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 01:00:36,263 INFO 3515 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 01:00:36,269 INFO 3515 [egg-security] use methodnoallow middleware
+2018-12-12 01:00:36,272 INFO 3515 [egg-security] use noopen middleware
+2018-12-12 01:00:36,275 INFO 3515 [egg-security] use nosniff middleware
+2018-12-12 01:00:36,277 INFO 3515 [egg-security] use xssProtection middleware
+2018-12-12 01:00:36,278 INFO 3515 [egg-security] use xframe middleware
+2018-12-12 01:00:36,280 INFO 3515 [egg-security] use dta middleware
+2018-12-12 01:00:36,280 INFO 3515 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 01:00:36,459 INFO 3515 [egg:core] dump config after load, 11ms
+2018-12-12 01:00:36,530 INFO 3515 [egg-watcher:app] watcher start success
+2018-12-12 01:00:36,687 INFO 3515 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 01:00:36 GMT+0800 (CST)
+2018-12-12 01:00:36,933 INFO 3515 [egg:core] dump config after ready, 8ms
+2018-12-12 01:01:00,845 INFO 3530 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 01:01:00,913 INFO 3530 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 01:01:00,913 INFO 3530 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 01:01:00,924 INFO 3530 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 01:01:01,628 INFO 3530 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 01:01:01,632 INFO 3530 [egg-security] use methodnoallow middleware
+2018-12-12 01:01:01,634 INFO 3530 [egg-security] use noopen middleware
+2018-12-12 01:01:01,636 INFO 3530 [egg-security] use nosniff middleware
+2018-12-12 01:01:01,637 INFO 3530 [egg-security] use xssProtection middleware
+2018-12-12 01:01:01,639 INFO 3530 [egg-security] use xframe middleware
+2018-12-12 01:01:01,642 INFO 3530 [egg-security] use dta middleware
+2018-12-12 01:01:01,642 INFO 3530 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 01:01:01,788 INFO 3530 [egg:core] dump config after load, 5ms
+2018-12-12 01:01:01,845 INFO 3530 [egg-watcher:app] watcher start success
+2018-12-12 01:01:01,950 INFO 3530 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 01:01:01 GMT+0800 (CST)
+2018-12-12 01:01:02,274 INFO 3530 [egg:core] dump config after ready, 7ms
+2018-12-12 01:03:42,816 INFO 3664 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 01:03:42,878 INFO 3664 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 01:03:42,878 INFO 3664 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 01:03:42,919 INFO 3664 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 01:03:44,709 INFO 3664 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 01:03:44,713 INFO 3664 [egg-security] use methodnoallow middleware
+2018-12-12 01:03:44,715 INFO 3664 [egg-security] use noopen middleware
+2018-12-12 01:03:44,716 INFO 3664 [egg-security] use nosniff middleware
+2018-12-12 01:03:44,718 INFO 3664 [egg-security] use xssProtection middleware
+2018-12-12 01:03:44,720 INFO 3664 [egg-security] use xframe middleware
+2018-12-12 01:03:44,721 INFO 3664 [egg-security] use dta middleware
+2018-12-12 01:03:44,721 INFO 3664 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 01:03:44,903 INFO 3664 [egg:core] dump config after load, 10ms
+2018-12-12 01:03:44,969 INFO 3664 [egg-watcher:app] watcher start success
+2018-12-12 01:03:45,065 INFO 3664 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 01:03:44 GMT+0800 (CST)
+2018-12-12 01:03:45,369 INFO 3664 [egg:core] dump config after ready, 8ms
+2018-12-12 12:01:17,375 INFO 3597 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 12:01:17,469 INFO 3597 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 12:01:17,469 INFO 3597 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 12:01:17,510 INFO 3597 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 12:01:18,840 INFO 3597 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 12:01:18,851 INFO 3597 [egg-security] use methodnoallow middleware
+2018-12-12 12:01:18,853 INFO 3597 [egg-security] use noopen middleware
+2018-12-12 12:01:18,857 INFO 3597 [egg-security] use nosniff middleware
+2018-12-12 12:01:18,859 INFO 3597 [egg-security] use xssProtection middleware
+2018-12-12 12:01:18,861 INFO 3597 [egg-security] use xframe middleware
+2018-12-12 12:01:18,863 INFO 3597 [egg-security] use dta middleware
+2018-12-12 12:01:18,863 INFO 3597 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 12:01:19,181 INFO 3597 [egg:core] dump config after load, 35ms
+2018-12-12 12:01:19,495 INFO 3597 [egg-watcher:app] watcher start success
+2018-12-12 12:01:19,645 INFO 3597 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 12:01:19 GMT+0800 (CST)
+2018-12-12 12:01:19,979 INFO 3597 [egg:core] dump config after ready, 33ms
+2018-12-12 13:15:15,145 WARN 3597 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-12-12 13:44:58,571 WARN 3597 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-12-12 22:17:56,739 INFO 2849 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 22:17:56,814 INFO 2849 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 22:17:56,814 INFO 2849 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 22:17:56,832 INFO 2849 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 22:17:57,931 INFO 2849 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 22:17:57,936 INFO 2849 [egg-security] use methodnoallow middleware
+2018-12-12 22:17:57,939 INFO 2849 [egg-security] use noopen middleware
+2018-12-12 22:17:57,941 INFO 2849 [egg-security] use nosniff middleware
+2018-12-12 22:17:57,944 INFO 2849 [egg-security] use xssProtection middleware
+2018-12-12 22:17:57,946 INFO 2849 [egg-security] use xframe middleware
+2018-12-12 22:17:57,947 INFO 2849 [egg-security] use dta middleware
+2018-12-12 22:17:57,948 INFO 2849 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 22:17:58,169 INFO 2849 [egg:core] dump config after load, 8ms
+2018-12-12 22:17:58,242 INFO 2849 [egg-watcher:app] watcher start success
+2018-12-12 22:17:58,337 INFO 2849 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 22:17:58 GMT+0800 (CST)
+2018-12-12 22:17:58,609 INFO 2849 [egg:core] dump config after ready, 12ms
+2018-12-12 22:24:23,450 INFO 3140 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 22:24:23,570 INFO 3140 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 22:24:23,570 INFO 3140 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 22:24:23,627 INFO 3140 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 22:24:26,940 INFO 3140 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 22:24:26,945 INFO 3140 [egg-security] use methodnoallow middleware
+2018-12-12 22:24:26,948 INFO 3140 [egg-security] use noopen middleware
+2018-12-12 22:24:26,953 INFO 3140 [egg-security] use nosniff middleware
+2018-12-12 22:24:26,955 INFO 3140 [egg-security] use xssProtection middleware
+2018-12-12 22:24:26,957 INFO 3140 [egg-security] use xframe middleware
+2018-12-12 22:24:26,958 INFO 3140 [egg-security] use dta middleware
+2018-12-12 22:24:26,958 INFO 3140 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 22:24:27,266 INFO 3140 [egg:core] dump config after load, 21ms
+2018-12-12 22:24:27,381 INFO 3140 [egg-watcher:app] watcher start success
+2018-12-12 22:24:27,486 INFO 3140 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 22:24:27 GMT+0800 (CST)
+2018-12-12 22:24:27,844 INFO 3140 [egg:core] dump config after ready, 12ms
+2018-12-12 22:26:01,025 INFO 3199 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 22:26:01,140 INFO 3199 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 22:26:01,140 INFO 3199 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 22:26:01,196 INFO 3199 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 22:26:04,143 INFO 3199 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 22:26:04,147 INFO 3199 [egg-security] use methodnoallow middleware
+2018-12-12 22:26:04,149 INFO 3199 [egg-security] use noopen middleware
+2018-12-12 22:26:04,153 INFO 3199 [egg-security] use nosniff middleware
+2018-12-12 22:26:04,157 INFO 3199 [egg-security] use xssProtection middleware
+2018-12-12 22:26:04,159 INFO 3199 [egg-security] use xframe middleware
+2018-12-12 22:26:04,161 INFO 3199 [egg-security] use dta middleware
+2018-12-12 22:26:04,161 INFO 3199 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 22:26:04,455 INFO 3199 [egg:core] dump config after load, 18ms
+2018-12-12 22:26:04,585 INFO 3199 [egg-watcher:app] watcher start success
+2018-12-12 22:26:04,676 INFO 3199 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 22:26:04 GMT+0800 (CST)
+2018-12-12 22:26:05,083 INFO 3199 [egg:core] dump config after ready, 10ms
+2018-12-12 22:35:23,456 INFO 3711 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 22:35:23,573 INFO 3711 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 22:35:23,573 INFO 3711 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 22:35:23,639 INFO 3711 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 22:35:25,997 INFO 3711 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 22:35:26,004 INFO 3711 [egg-security] use methodnoallow middleware
+2018-12-12 22:35:26,006 INFO 3711 [egg-security] use noopen middleware
+2018-12-12 22:35:26,008 INFO 3711 [egg-security] use nosniff middleware
+2018-12-12 22:35:26,010 INFO 3711 [egg-security] use xssProtection middleware
+2018-12-12 22:35:26,013 INFO 3711 [egg-security] use xframe middleware
+2018-12-12 22:35:26,015 INFO 3711 [egg-security] use dta middleware
+2018-12-12 22:35:26,015 INFO 3711 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 22:35:26,286 INFO 3711 [egg:core] dump config after load, 9ms
+2018-12-12 22:35:26,392 INFO 3711 [egg-watcher:app] watcher start success
+2018-12-12 22:35:26,480 INFO 3711 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 22:35:26 GMT+0800 (CST)
+2018-12-12 22:35:26,782 INFO 3711 [egg:core] dump config after ready, 11ms
+2018-12-12 22:44:11,077 INFO 4171 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 22:44:11,177 INFO 4171 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 22:44:11,177 INFO 4171 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 22:44:11,233 INFO 4171 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 22:44:14,076 INFO 4171 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 22:44:14,084 INFO 4171 [egg-security] use methodnoallow middleware
+2018-12-12 22:44:14,089 INFO 4171 [egg-security] use noopen middleware
+2018-12-12 22:44:14,093 INFO 4171 [egg-security] use nosniff middleware
+2018-12-12 22:44:14,095 INFO 4171 [egg-security] use xssProtection middleware
+2018-12-12 22:44:14,099 INFO 4171 [egg-security] use xframe middleware
+2018-12-12 22:44:14,102 INFO 4171 [egg-security] use dta middleware
+2018-12-12 22:44:14,103 INFO 4171 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 22:44:14,400 INFO 4171 [egg:core] dump config after load, 19ms
+2018-12-12 22:44:14,559 INFO 4171 [egg-watcher:app] watcher start success
+2018-12-12 22:44:14,648 INFO 4171 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 22:44:14 GMT+0800 (CST)
+2018-12-12 22:44:15,043 INFO 4171 [egg:core] dump config after ready, 15ms
+2018-12-12 22:44:16,560 INFO 4193 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 22:44:16,630 INFO 4193 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 22:44:16,630 INFO 4193 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 22:44:16,649 INFO 4193 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 22:44:17,805 INFO 4193 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 22:44:17,810 INFO 4193 [egg-security] use methodnoallow middleware
+2018-12-12 22:44:17,811 INFO 4193 [egg-security] use noopen middleware
+2018-12-12 22:44:17,812 INFO 4193 [egg-security] use nosniff middleware
+2018-12-12 22:44:17,812 INFO 4193 [egg-security] use xssProtection middleware
+2018-12-12 22:44:17,812 INFO 4193 [egg-security] use xframe middleware
+2018-12-12 22:44:17,813 INFO 4193 [egg-security] use dta middleware
+2018-12-12 22:44:17,813 INFO 4193 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 22:44:17,914 INFO 4193 [egg:core] dump config after load, 8ms
+2018-12-12 22:44:18,014 INFO 4193 [egg-watcher:app] watcher start success
+2018-12-12 22:44:18,095 INFO 4193 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 22:44:18 GMT+0800 (CST)
+2018-12-12 22:44:18,406 INFO 4193 [egg:core] dump config after ready, 10ms
+2018-12-12 22:52:26,922 INFO 4516 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 22:52:26,994 INFO 4516 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 22:52:26,994 INFO 4516 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 22:52:27,033 INFO 4516 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 22:52:28,640 INFO 4516 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 22:52:28,644 INFO 4516 [egg-security] use methodnoallow middleware
+2018-12-12 22:52:28,646 INFO 4516 [egg-security] use noopen middleware
+2018-12-12 22:52:28,648 INFO 4516 [egg-security] use nosniff middleware
+2018-12-12 22:52:28,650 INFO 4516 [egg-security] use xssProtection middleware
+2018-12-12 22:52:28,651 INFO 4516 [egg-security] use xframe middleware
+2018-12-12 22:52:28,653 INFO 4516 [egg-security] use dta middleware
+2018-12-12 22:52:28,653 INFO 4516 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 22:52:28,872 INFO 4516 [egg:core] dump config after load, 12ms
+2018-12-12 22:52:28,988 INFO 4516 [egg-watcher:app] watcher start success
+2018-12-12 22:52:29,068 INFO 4516 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 22:52:29 GMT+0800 (CST)
+2018-12-12 22:52:29,379 INFO 4516 [egg:core] dump config after ready, 9ms
+2018-12-12 22:54:36,311 INFO 4575 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-12-12 22:54:36,463 INFO 4575 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-12-12 22:54:36,463 INFO 4575 [egg-schedule]: register schedule /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-12-12 22:54:36,526 INFO 4575 [egg-mysql] connecting kaier001@106.13.10.101:3306/kaier
+2018-12-12 22:54:38,664 INFO 4575 [egg-static] starting static serve /static -> /Users/abc/Documents/workspace/kaier/adminAPI/app/public
+2018-12-12 22:54:38,669 INFO 4575 [egg-security] use methodnoallow middleware
+2018-12-12 22:54:38,671 INFO 4575 [egg-security] use noopen middleware
+2018-12-12 22:54:38,672 INFO 4575 [egg-security] use nosniff middleware
+2018-12-12 22:54:38,674 INFO 4575 [egg-security] use xssProtection middleware
+2018-12-12 22:54:38,676 INFO 4575 [egg-security] use xframe middleware
+2018-12-12 22:54:38,679 INFO 4575 [egg-security] use dta middleware
+2018-12-12 22:54:38,679 INFO 4575 [egg-security] compose 6 middlewares into one security middleware
+2018-12-12 22:54:38,901 INFO 4575 [egg:core] dump config after load, 12ms
+2018-12-12 22:54:38,988 INFO 4575 [egg-watcher:app] watcher start success
+2018-12-12 22:54:39,071 INFO 4575 [egg-mysql] instance[0] status OK, rds currentTime: Wed Dec 12 2018 22:54:39 GMT+0800 (CST)
+2018-12-12 22:54:39,404 INFO 4575 [egg:core] dump config after ready, 17ms
+2018-12-13 00:00:00,767 INFO 4575 [egg-logrotator] clean all log before 31 days
+2018-12-13 00:00:00,769 INFO 4575 [-/127.0.0.1/-/36ms SCHEDULE /__schedule?path=/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js&type=worker&cron=0%200%20*%20*%20*] [egg-schedule] /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 35ms
+2018-12-13 00:00:01,737 INFO 4575 [egg-logrotator] broadcast log-reload
+2018-12-13 00:00:01,740 INFO 4575 [egg-logrotator] rotate files success by DayRotator, files ["/Users/abc/Documents/workspace/kaier/adminAPI/logs/example/common-error.log -> /Users/abc/Documents/workspace/kaier/adminAPI/logs/example/common-error.log.2018-12-12","/Users/abc/Documents/workspace/kaier/adminAPI/logs/example/example-web.log -> /Users/abc/Documents/workspace/kaier/adminAPI/logs/example/example-web.log.2018-12-12","/Users/abc/Documents/workspace/kaier/adminAPI/logs/example/egg-web.log -> /Users/abc/Documents/workspace/kaier/adminAPI/logs/example/egg-web.log.2018-12-12","/Users/abc/Documents/workspace/kaier/adminAPI/logs/example/egg-schedule.log -> /Users/abc/Documents/workspace/kaier/adminAPI/logs/example/egg-schedule.log.2018-12-12","/Users/abc/Documents/workspace/kaier/adminAPI/logs/egg-knex.log -> /Users/abc/Documents/workspace/kaier/adminAPI/logs/egg-knex.log.2018-12-12","/Users/abc/Documents/workspace/kaier/adminAPI/logs/example/egg-agent.log -> /Users/abc/Documents/workspace/kaier/adminAPI/logs/example/egg-agent.log.2018-12-12"]
+2018-12-13 00:00:01,741 INFO 4575 [-/127.0.0.1/-/24ms SCHEDULE /__schedule?path=/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-schedule] /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 24ms

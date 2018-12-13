@@ -22,6 +22,9 @@ module.exports = appInfo => {
       // 是否加载到 agent 上，默认关闭
       agent: false,
     },
+    // multipart : {
+    //   mode: 'file', //启用file模式
+    // },
     security: {
       csrf: {
         enable: false,
@@ -58,7 +61,9 @@ module.exports = appInfo => {
     password: 'hushihao5549003'
 
   }
-
+  exports.multipart = {
+    mode: 'file', //启用file模式
+  }
   exports.knex = {
     // database configuration
     client: {
@@ -96,6 +101,16 @@ module.exports = appInfo => {
     prefix:'/static',
     dir: path.join(appInfo.baseDir, 'app/public')
   }
+  exports.oss = {
+    client: {
+      accessKeyId: 'P_8rAw-wQVVhTN9C9plnEkZ1P9LfLQ_zCS-9fV-B',
+      accessKeySecret: '3QvYbmb14AR-LRJmhHcHVtq-38bKrkmIM3wI34Rq',
+      bucket: 'kaier',
+      endpoint: 'pjgs5tghw.bkt.clouddn.com',
+      timeout: '60s',
+    },
+  };
+  
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1532070433309_6169';
 
@@ -104,4 +119,6 @@ module.exports = appInfo => {
 
   return config;
 };
-
+// exports.multipart = {
+//   mode: 'file', //启用file模式
+// }

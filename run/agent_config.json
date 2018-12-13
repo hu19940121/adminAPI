@@ -89,24 +89,6 @@
         "development": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
-    "multipart": {
-      "autoFields": false,
-      "defaultCharset": "utf8",
-      "fieldNameSize": 100,
-      "fieldSize": "100kb",
-      "fields": 10,
-      "fileSize": "10mb",
-      "files": 10,
-      "fileExtensions": [],
-      "whitelist": null
-    },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
@@ -115,6 +97,29 @@
       "knex": {
         "file": "/Users/abc/Documents/workspace/kaier/adminAPI/logs/egg-knex.log"
       }
+    },
+    "multipart": {
+      "mode": "file",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": "100kb",
+      "fields": 10,
+      "fileSize": "10mb",
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "tmpdir": "/var/folders/r5/n06hcbqd7r95ttkzdd3n7bd80000gn/T/egg-multipart-tmp/example",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
     },
     "logrotator": {
       "filesRotateByHour": null,
@@ -231,7 +236,9 @@
         "egg-cors": "^2.1.1",
         "egg-jwt": "^3.1.1",
         "egg-knex": "^2.0.10",
+        "egg-multipart": "^2.3.0",
         "egg-mysql": "^3.0.0",
+        "egg-oss": "^2.0.0",
         "egg-scripts": "^2.5.0",
         "egg-sequelize": "^4.2.0",
         "egg-static": "^2.1.1",
@@ -371,6 +378,18 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "oss": {
+      "enable": true,
+      "package": "egg-oss",
+      "useAgent": true,
+      "client": {
+        "accessKeyId": "P_8rAw-wQVVhTN9C9plnEkZ1P9LfLQ_zCS-9fV-B",
+        "accessKeySecret": "<String len: 40>",
+        "bucket": "kaier",
+        "endpoint": "pjgs5tghw.bkt.clouddn.com",
+        "timeout": "60s"
+      }
+    },
     "middleware": [],
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
@@ -449,16 +468,29 @@
       "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-watcher",
       "version": "3.0.0"
     },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-schedule",
+      "version": "3.4.0"
+    },
     "multipart": {
       "enable": true,
       "package": "egg-multipart",
       "name": "multipart",
       "dependencies": [],
-      "optionalDependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
       "env": [],
       "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
       "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart",
-      "version": "2.1.0"
+      "version": "2.3.0"
     },
     "development": {
       "enable": true,
@@ -474,17 +506,6 @@
       "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
       "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development",
       "version": "2.4.1"
-    },
-    "schedule": {
-      "enable": true,
-      "package": "egg-schedule",
-      "name": "schedule",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
-      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-schedule",
-      "version": "3.4.0"
     },
     "logrotator": {
       "enable": true,

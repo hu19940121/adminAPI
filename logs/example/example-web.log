@@ -1,6 +1,198 @@
-2018-12-12 00:50:55,291 INFO 3028 [egg-sequelize](33ms) Executed (default): SELECT 1+1 AS result
-2018-12-12 00:51:28,429 INFO 3120 [egg-sequelize](31ms) Executed (default): SELECT 1+1 AS result
-2018-12-12 00:57:53,778 INFO 3389 [egg-sequelize](38ms) Executed (default): SELECT 1+1 AS result
-2018-12-12 01:00:36,922 INFO 3515 [egg-sequelize](39ms) Executed (default): SELECT 1+1 AS result
-2018-12-12 01:01:02,264 INFO 3530 [egg-sequelize](40ms) Executed (default): SELECT 1+1 AS result
-2018-12-12 01:03:45,358 INFO 3664 [egg-sequelize](33ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 11:06:03,351 INFO 2208 [egg-sequelize](32ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 11:12:17,809 INFO 2460 [egg-sequelize](32ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 11:15:15,944 INFO 2610 [egg-sequelize](32ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 11:16:06,093 INFO 2631 [egg-sequelize](34ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 11:16:14,545 INFO 2641 [egg-sequelize](36ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 11:16:37,196 INFO 2649 [egg-sequelize](36ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 11:43:16,704 INFO 3126 [egg-sequelize](33ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 11:47:32,268 INFO 3296 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 11:47:52,672 INFO 3322 [egg-sequelize](32ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 12:58:02,802 INFO 5082 [egg-sequelize](39ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:00:53,042 INFO 5286 [egg-sequelize](31ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:01:06,783 WARN 5286 [-/127.0.0.1/-/20ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{ctx.csrf|safe}}] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-12-13 13:01:06,786 WARN 5286 [-/127.0.0.1/-/23ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{ctx.csrf|safe}}] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa/lib/context.js:96:11)
+    at Object.assertCsrf (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/app/extend/context.js:148:17)
+    at csrf (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/koa-bodyparser/index.js:86:11)
+    at <anonymous>
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 5286
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:01:47,540 INFO 5327 [egg-sequelize](36ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:05:35,216 INFO 5567 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:15:05,986 INFO 6108 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:16:42,628 INFO 6164 [egg-sequelize](34ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:17:18,590 INFO 6287 [egg-sequelize](42ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:19:08,174 INFO 6344 [egg-sequelize](33ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:20:16,179 INFO 6403 [egg-sequelize](32ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:27:45,708 INFO 6905 [egg-sequelize](37ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:27:53,479 INFO 6925 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:29:39,269 INFO 6983 [egg-sequelize](33ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:32:04,730 INFO 7142 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:32:35,167 INFO 7180 [egg-sequelize](37ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:33:11,604 INFO 7207 [egg-sequelize](33ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:34:38,008 INFO 7374 [egg-sequelize](33ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:35:00,211 INFO 7398 [egg-sequelize](38ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:35:03,198 WARN 7398 [-/127.0.0.1/-/417ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.Error: Non-whitespace before first tag.
+Line: 0
+Column: 1
+Char: {
+raw xml: {"error":"no such domain"}
+Line: 0
+Column: 1
+Char: {
+raw xml: {"error":"no such domain"}
+    at error (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:651:10)
+    at strictFail (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:677:7)
+    at beginWhiteSpace (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:951:7)
+    at SAXParser.write (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:1006:11)
+    at Parser.exports.Parser.Parser.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:322:31)
+    at Parser.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:5:59)
+    at Object.exports.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:354:19)
+    at Promise (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:442:9)
+    at new Promise (<anonymous>)
+    at Client.parseXMLThunk [as parseXML] (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:438:10)
+    at Client.requestError (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:496:25)
+    at Client.request (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:314:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+status: 404
+requestId: undefined
+params: {"object":"egg-multipart-test/&#25512;&#36865;&#35828;&#26126;.png","bucket":"kaier","method":"PUT","headers":{"Content-Length":123441},"mime":"image/png","stream":{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":false,"ended":true,"endEmitted":true,"reading":false,"sync":false,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"end":[null,null],"close":[null,null]},"_eventsCount":4,"path":"/var/folders/r5/n06hcbqd7r95ttkzdd3n7bd80000gn/T/egg-multipart-tmp/example/2018/12/13/13/0e948276-7263-4973-940d-02060a138245.png","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":123441,"closed":true},"successStatuses":[200]}
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 7398
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:37:40,644 INFO 7595 [egg-sequelize](36ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:39:06,636 INFO 7640 [egg-sequelize](37ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 13:39:11,250 WARN 7640 [-/127.0.0.1/-/481ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.Error: Non-whitespace before first tag.
+Line: 0
+Column: 1
+Char: {
+raw xml: {"error":"no such domain"}
+Line: 0
+Column: 1
+Char: {
+raw xml: {"error":"no such domain"}
+    at error (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:651:10)
+    at strictFail (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:677:7)
+    at beginWhiteSpace (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:951:7)
+    at SAXParser.write (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:1006:11)
+    at Parser.exports.Parser.Parser.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:322:31)
+    at Parser.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:5:59)
+    at Object.exports.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:354:19)
+    at Promise (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:442:9)
+    at new Promise (<anonymous>)
+    at Client.parseXMLThunk [as parseXML] (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:438:10)
+    at Client.requestError (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:496:25)
+    at Client.request (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:314:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+status: 404
+requestId: undefined
+params: {"object":"name","bucket":"kaier","method":"PUT","headers":{"Content-Length":123441},"mime":"image/png","stream":{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":false,"ended":true,"endEmitted":true,"reading":false,"sync":false,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"end":[null,null],"close":[null,null]},"_eventsCount":4,"path":"/var/folders/r5/n06hcbqd7r95ttkzdd3n7bd80000gn/T/egg-multipart-tmp/example/2018/12/13/13/58c1ee60-d46f-476f-b439-5ebfd692846c.png","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":123441,"closed":true},"successStatuses":[200]}
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 7640
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:39:21,942 WARN 7640 [-/127.0.0.1/-/275ms POST /api/v1/uploadToQiniu/uploadImage?_csrf=safe] nodejs.Error: Non-whitespace before first tag.
+Line: 0
+Column: 1
+Char: {
+raw xml: {"error":"no such domain"}
+Line: 0
+Column: 1
+Char: {
+raw xml: {"error":"no such domain"}
+    at error (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:651:10)
+    at strictFail (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:677:7)
+    at beginWhiteSpace (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:951:7)
+    at SAXParser.write (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:1006:11)
+    at Parser.exports.Parser.Parser.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:322:31)
+    at Parser.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:5:59)
+    at Object.exports.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:354:19)
+    at Promise (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:442:9)
+    at new Promise (<anonymous>)
+    at Client.parseXMLThunk [as parseXML] (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:438:10)
+    at Client.requestError (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:496:25)
+    at Client.request (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:314:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+status: 404
+requestId: undefined
+params: {"object":"name","bucket":"kaier","method":"PUT","headers":{"Content-Length":123441},"mime":"image/png","stream":{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":false,"ended":true,"endEmitted":true,"reading":false,"sync":false,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"end":[null,null],"close":[null,null]},"_eventsCount":4,"path":"/var/folders/r5/n06hcbqd7r95ttkzdd3n7bd80000gn/T/egg-multipart-tmp/example/2018/12/13/13/3667dc5f-679c-4569-99b5-22615acd467d.png","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":123441,"closed":true},"successStatuses":[200]}
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 7640
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:41:52,652 WARN 7640 [-/127.0.0.1/-/238ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{%20ctx.csrf%20|%20safe%20}}] nodejs.Error: Non-whitespace before first tag.
+Line: 0
+Column: 1
+Char: {
+raw xml: {"error":"no such domain"}
+Line: 0
+Column: 1
+Char: {
+raw xml: {"error":"no such domain"}
+    at error (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:651:10)
+    at strictFail (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:677:7)
+    at beginWhiteSpace (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:951:7)
+    at SAXParser.write (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:1006:11)
+    at Parser.exports.Parser.Parser.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:322:31)
+    at Parser.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:5:59)
+    at Object.exports.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:354:19)
+    at Promise (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:442:9)
+    at new Promise (<anonymous>)
+    at Client.parseXMLThunk [as parseXML] (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:438:10)
+    at Client.requestError (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:496:25)
+    at Client.request (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:314:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+status: 404
+requestId: undefined
+params: {"object":"name","bucket":"kaier","method":"PUT","headers":{"Content-Length":123441},"mime":"image/png","stream":{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":false,"ended":true,"endEmitted":true,"reading":false,"sync":false,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"end":[null,null],"close":[null,null]},"_eventsCount":4,"path":"/var/folders/r5/n06hcbqd7r95ttkzdd3n7bd80000gn/T/egg-multipart-tmp/example/2018/12/13/13/cabebb67-2369-4a00-bac7-53a3f718fbe7.png","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":123441,"closed":true},"successStatuses":[200]}
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 7640
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:42:17,308 WARN 7640 [-/127.0.0.1/-/1133ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{ctx.csrf|safe}}] nodejs.Error: Non-whitespace before first tag.
+Line: 0
+Column: 1
+Char: {
+raw xml: {"error":"no such domain"}
+Line: 0
+Column: 1
+Char: {
+raw xml: {"error":"no such domain"}
+    at error (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:651:10)
+    at strictFail (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:677:7)
+    at beginWhiteSpace (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:951:7)
+    at SAXParser.write (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/node_modules/sax/lib/sax.js:1006:11)
+    at Parser.exports.Parser.Parser.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:322:31)
+    at Parser.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:5:59)
+    at Object.exports.parseString (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/xml2js/lib/parser.js:354:19)
+    at Promise (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:442:9)
+    at new Promise (<anonymous>)
+    at Client.parseXMLThunk [as parseXML] (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:438:10)
+    at Client.requestError (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:496:25)
+    at Client.request (/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/ali-oss/lib/client.js:314:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:182:7)
+status: 404
+requestId: undefined
+params: {"object":"name","bucket":"kaier","method":"PUT","headers":{"Content-Length":123441},"mime":"image/png","stream":{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":false,"ended":true,"endEmitted":true,"reading":false,"sync":false,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"destroyed":true,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":false,"_events":{"end":[null,null],"close":[null,null]},"_eventsCount":4,"path":"/var/folders/r5/n06hcbqd7r95ttkzdd3n7bd80000gn/T/egg-multipart-tmp/example/2018/12/13/13/b4f8d92b-373c-4e70-99c4-fcc0988644be.png","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":123441,"closed":true},"successStatuses":[200]}
+headers: {"Access-Control-Allow-Origin":"*"}
+pid: 7640
+hostname: josiedeMacBook-Pro.local
+
+2018-12-13 13:47:53,837 INFO 8044 [egg-sequelize](34ms) Executed (default): SELECT 1+1 AS result
