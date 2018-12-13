@@ -74,6 +74,7 @@
 2018-12-13 13:38:57,715 WARN 6982 [agent:development] reload worker because /Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js change
 2018-12-13 13:47:47,944 WARN 6982 [agent:development] reload worker because /Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js change
 2018-12-13 13:47:47,742 INFO 6982 Recieved a change event from eventSource: {"event":"change","path":"/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":26231510,"size":990,"blocks":8,"atimeMs":1544680067000,"mtimeMs":1544680067000,"ctimeMs":1544680067000,"birthtimeMs":1544624087000,"atime":"2018-12-13T05:47:47.000Z","mtime":"2018-12-13T05:47:47.000Z","ctime":"2018-12-13T05:47:47.000Z","birthtime":"2018-12-12T14:14:47.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+<<<<<<< HEAD
 2018-12-13 20:46:26,099 INFO 1670 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
 2018-12-13 20:46:27,847 INFO 1670 [egg:core] dump config after load, 6ms
 2018-12-13 20:46:27,901 INFO 1670 [egg-watcher:agent] watcher start success
@@ -135,3 +136,10 @@
 2018-12-13 22:56:23,864 WARN 1670 [agent:development] reload worker because /Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js change
 2018-12-13 22:56:39,069 WARN 1670 [agent:development] reload worker because /Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js change
 2018-12-13 22:56:38,863 INFO 1670 Recieved a change event from eventSource: {"event":"change","path":"/Users/abc/Documents/workspace/kaier/adminAPI/app/controller/uploadToQiniu.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":26231510,"size":2267,"blocks":8,"atimeMs":1544712998000,"mtimeMs":1544712998000,"ctimeMs":1544712998000,"birthtimeMs":1544624087000,"atime":"2018-12-13T14:56:38.000Z","mtime":"2018-12-13T14:56:38.000Z","ctime":"2018-12-13T14:56:38.000Z","birthtime":"2018-12-12T14:14:47.000Z"},"remove":false,"isDirectory":false,"isFile":true}
+=======
+>>>>>>> 0318cb340ab81e69c311150ef0eb347ea9916552
+2018-12-13 23:07:10,468 INFO 7691 [egg:logger] init all loggers with options: {"dir":"/Users/abc/Documents/workspace/kaier/adminAPI/logs/example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-12-13 23:07:12,112 INFO 7691 [egg:core] dump config after load, 5ms
+2018-12-13 23:07:12,161 INFO 7691 [egg-watcher:agent] watcher start success
+2018-12-13 23:07:12,563 INFO 7691 [egg-sequelize](32ms) Executed (default): SELECT 1+1 AS result
+2018-12-13 23:07:12,573 INFO 7691 [egg:core] dump config after ready, 8ms

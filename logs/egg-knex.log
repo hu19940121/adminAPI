@@ -1,6 +1,7 @@
 2018-12-13 11:06:01,501 INFO 2208 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
 2018-12-13 11:06:02,952 INFO 2208 [egg-knex] { method: 'raw',
   sql: 'SHOW TABLES',
+<<<<<<< HEAD
   bindings: [],
   options: {},
   __knexQueryUid: '26793e0e-cf0c-4a95-8643-97b29dcd3e58' }
@@ -446,3 +447,242 @@
   __knexQueryUid: '6c05914c-f165-41b0-bead-11bd3839926a' }
 2018-12-13 22:56:43,892 INFO 7251 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
 2018-12-13 22:56:43,893 INFO 7251 [egg-knex] instance[0] status OK
+=======
+  bindings: [],
+  options: {},
+  __knexQueryUid: '26793e0e-cf0c-4a95-8643-97b29dcd3e58' }
+2018-12-13 11:06:03,071 INFO 2208 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 11:06:03,071 INFO 2208 [egg-knex] instance[0] status OK
+2018-12-13 11:12:16,100 INFO 2460 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 11:12:17,372 INFO 2460 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'de6788f1-fa9b-4fff-8311-66f980490dcf' }
+2018-12-13 11:12:17,415 INFO 2460 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 11:12:17,416 INFO 2460 [egg-knex] instance[0] status OK
+2018-12-13 11:15:14,193 INFO 2610 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 11:15:15,583 INFO 2610 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '4c3ba95d-a5a7-419c-a0d3-b05c1a3e4b9c' }
+2018-12-13 11:15:15,636 INFO 2610 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 11:15:15,637 INFO 2610 [egg-knex] instance[0] status OK
+2018-12-13 11:16:04,357 INFO 2631 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 11:16:06,736 INFO 2631 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '2963a058-c67f-453d-8e0f-45a465b720c9' }
+2018-12-13 11:16:06,778 INFO 2631 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 11:16:06,779 INFO 2631 [egg-knex] instance[0] status OK
+2018-12-13 11:16:12,260 INFO 2641 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 11:16:14,130 INFO 2641 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '60f842f0-119b-4cd5-aef0-68d1386c7362' }
+2018-12-13 11:16:14,196 INFO 2641 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 11:16:14,197 INFO 2641 [egg-knex] instance[0] status OK
+2018-12-13 11:16:35,844 INFO 2649 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 11:16:36,841 INFO 2649 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'd5e03379-e751-4cec-b0b1-b37cfbfd5996' }
+2018-12-13 11:16:36,880 INFO 2649 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 11:16:36,881 INFO 2649 [egg-knex] instance[0] status OK
+2018-12-13 11:43:15,064 INFO 3126 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 11:43:16,378 INFO 3126 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'ba17c2e2-168f-4ee1-bb54-9b91600488e7' }
+2018-12-13 11:43:16,437 INFO 3126 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 11:43:16,438 INFO 3126 [egg-knex] instance[0] status OK
+2018-12-13 11:47:29,471 INFO 3296 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 11:47:31,956 INFO 3296 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'ba96cae1-42c1-4e86-b78e-0efd72e23ef4' }
+2018-12-13 11:47:31,995 INFO 3296 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 11:47:31,995 INFO 3296 [egg-knex] instance[0] status OK
+2018-12-13 11:47:51,321 INFO 3322 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 11:47:52,273 INFO 3322 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '7a8d0821-494b-4334-8ee3-f38c64be897f' }
+2018-12-13 11:47:52,323 INFO 3322 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 11:47:52,323 INFO 3322 [egg-knex] instance[0] status OK
+2018-12-13 12:58:00,021 INFO 5082 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 12:58:02,278 INFO 5082 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'a470f8e5-7313-4d13-8308-1d7b02dbaa20' }
+2018-12-13 12:58:02,338 INFO 5082 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 12:58:02,339 INFO 5082 [egg-knex] instance[0] status OK
+2018-12-13 13:00:49,646 INFO 5286 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:00:52,736 INFO 5286 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'f48ba00c-2c86-46d2-993a-fb73efcd01b3' }
+2018-12-13 13:00:52,776 INFO 5286 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:00:52,777 INFO 5286 [egg-knex] instance[0] status OK
+2018-12-13 13:01:44,366 INFO 5327 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:01:47,135 INFO 5327 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'f4cd1fc2-ea74-40de-9ea9-4e66fd710b3f' }
+2018-12-13 13:01:47,201 INFO 5327 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:01:47,202 INFO 5327 [egg-knex] instance[0] status OK
+2018-12-13 13:05:31,481 INFO 5567 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:05:34,862 INFO 5567 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'b0f9662d-bee1-4f2b-946d-c75530a57aa3' }
+2018-12-13 13:05:34,909 INFO 5567 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:05:34,909 INFO 5567 [egg-knex] instance[0] status OK
+2018-12-13 13:15:02,766 INFO 6108 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:15:05,559 INFO 6108 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '7e9d1999-222c-4378-8b78-f5071dd3b088' }
+2018-12-13 13:15:05,636 INFO 6108 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:15:05,637 INFO 6108 [egg-knex] instance[0] status OK
+2018-12-13 13:16:40,435 INFO 6164 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:16:42,252 INFO 6164 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '24c77863-15b4-4227-8cd9-1ba3ffef58bd' }
+2018-12-13 13:16:42,312 INFO 6164 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:16:42,312 INFO 6164 [egg-knex] instance[0] status OK
+2018-12-13 13:17:15,706 INFO 6287 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:17:18,014 INFO 6287 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '30a0d327-e788-4460-abe4-e8522c821762' }
+2018-12-13 13:17:18,177 INFO 6287 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:17:18,178 INFO 6287 [egg-knex] instance[0] status OK
+2018-12-13 13:19:05,112 INFO 6344 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:19:07,796 INFO 6344 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '7465e39b-65e5-4396-9a15-4e0cfe93fc07' }
+2018-12-13 13:19:07,866 INFO 6344 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:19:07,867 INFO 6344 [egg-knex] instance[0] status OK
+2018-12-13 13:20:14,108 INFO 6403 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:20:15,778 INFO 6403 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '3a8a0906-b6c0-4f5f-855e-e92dca5e1c46' }
+2018-12-13 13:20:15,846 INFO 6403 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:20:15,847 INFO 6403 [egg-knex] instance[0] status OK
+2018-12-13 13:27:43,350 INFO 6905 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:27:45,292 INFO 6905 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '1abade81-89d5-4ec2-8126-031e0bf52cc9' }
+2018-12-13 13:27:45,384 INFO 6905 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:27:45,409 INFO 6905 [egg-knex] instance[0] status OK
+2018-12-13 13:27:50,149 INFO 6925 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:27:53,073 INFO 6925 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '42e9dd10-5a39-43c4-af66-3b41b7293684' }
+2018-12-13 13:27:53,185 INFO 6925 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:27:53,185 INFO 6925 [egg-knex] instance[0] status OK
+2018-12-13 13:29:37,697 INFO 6983 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:29:38,858 INFO 6983 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'dbe2fb71-8c6b-4ee0-a4e1-8723f697f053' }
+2018-12-13 13:29:38,920 INFO 6983 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:29:38,922 INFO 6983 [egg-knex] instance[0] status OK
+2018-12-13 13:32:02,182 INFO 7142 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:32:04,384 INFO 7142 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '2a63342f-243b-4e0f-919c-91f5832c43ec' }
+2018-12-13 13:32:04,481 INFO 7142 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:32:04,482 INFO 7142 [egg-knex] instance[0] status OK
+2018-12-13 13:32:32,613 INFO 7180 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:32:34,801 INFO 7180 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '7a7feca9-42ac-4a66-924d-84e32ddff3d7' }
+2018-12-13 13:32:34,854 INFO 7180 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:32:34,855 INFO 7180 [egg-knex] instance[0] status OK
+2018-12-13 13:33:09,845 INFO 7207 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:33:11,208 INFO 7207 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '97104a1e-84d7-417e-8552-f79ce8238ef9' }
+2018-12-13 13:33:11,264 INFO 7207 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:33:11,265 INFO 7207 [egg-knex] instance[0] status OK
+2018-12-13 13:34:35,715 INFO 7374 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:34:37,652 INFO 7374 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'a010504a-175c-468c-8c82-eb9a2e591791' }
+2018-12-13 13:34:37,708 INFO 7374 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:34:37,709 INFO 7374 [egg-knex] instance[0] status OK
+2018-12-13 13:34:57,197 INFO 7398 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:34:59,830 INFO 7398 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '85f42c59-69bb-4c5f-9b6e-acdac54efd70' }
+2018-12-13 13:34:59,872 INFO 7398 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:34:59,872 INFO 7398 [egg-knex] instance[0] status OK
+2018-12-13 13:37:38,437 INFO 7595 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:37:40,278 INFO 7595 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'd277d5cb-7974-46a3-b217-20ed170abf5f' }
+2018-12-13 13:37:40,320 INFO 7595 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:37:40,321 INFO 7595 [egg-knex] instance[0] status OK
+2018-12-13 13:39:03,708 INFO 7640 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:39:06,270 INFO 7640 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '36aa4119-ff9f-4bda-9853-f3f5d1418732' }
+2018-12-13 13:39:06,327 INFO 7640 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:39:06,328 INFO 7640 [egg-knex] instance[0] status OK
+2018-12-13 13:47:51,845 INFO 8044 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 13:47:53,474 INFO 8044 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: '6c254b9d-b52c-4898-a24c-7fbb15cdc589' }
+2018-12-13 13:47:53,538 INFO 8044 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 13:47:53,538 INFO 8044 [egg-knex] instance[0] status OK
+>>>>>>> 0318cb340ab81e69c311150ef0eb347ea9916552
+2018-12-13 23:07:13,890 INFO 7692 [egg-knex] mysql connecting kaier001@106.13.10.101:3306/kaier
+2018-12-13 23:07:14,649 INFO 7692 [egg-knex] { method: 'raw',
+  sql: 'SHOW TABLES',
+  bindings: [],
+  options: {},
+  __knexQueryUid: 'c4656320-aa3b-4150-a59a-ba70bbe95aee' }
+2018-12-13 23:07:14,692 INFO 7692 [egg-knex] mysql 106.13.10.101#3306#kaier#kaier001 status OK, got 2 tables
+2018-12-13 23:07:14,692 INFO 7692 [egg-knex] instance[0] status OK

@@ -196,6 +196,7 @@ pid: 7640
 hostname: josiedeMacBook-Pro.local
 
 2018-12-13 13:47:53,837 INFO 8044 [egg-sequelize](34ms) Executed (default): SELECT 1+1 AS result
+<<<<<<< HEAD
 2018-12-13 20:46:30,828 INFO 1671 [egg-sequelize](38ms) Executed (default): SELECT 1+1 AS result
 2018-12-13 20:47:53,214 WARN 1671 [-/127.0.0.1/-/536ms POST /api/v1/uploadToQiniu/uploadImage?_csrf={{ctx.csrf|safe}}] nodejs.Error: Non-whitespace before first tag.
 Line: 0
@@ -309,3 +310,6 @@ hostname: josiedeMacBook-Pro.local
 2018-12-13 22:50:20,854 INFO 6906 [egg-sequelize](35ms) Executed (default): SELECT 1+1 AS result
 2018-12-13 22:56:30,791 INFO 7235 [egg-sequelize](38ms) Executed (default): SELECT 1+1 AS result
 2018-12-13 22:56:44,193 INFO 7251 [egg-sequelize](60ms) Executed (default): SELECT 1+1 AS result
+=======
+>>>>>>> 0318cb340ab81e69c311150ef0eb347ea9916552
+2018-12-13 23:07:14,939 INFO 7692 [egg-sequelize](36ms) Executed (default): SELECT 1+1 AS result

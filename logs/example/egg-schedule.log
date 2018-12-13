@@ -7,6 +7,12 @@
 2018-12-13 13:29:39,314 INFO 6982 [Timer] /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute at 2018-12-14 04:30:00.000
 2018-12-13 13:29:39,316 INFO 6982 [Timer] /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-12-14 00:00:00.000
 2018-12-13 13:29:39,317 INFO 6982 [Timer] /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-12-14 00:00:01.000
+<<<<<<< HEAD
 2018-12-13 20:46:30,858 INFO 1670 [Timer] /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute at 2018-12-14 04:30:00.000
 2018-12-13 20:46:30,859 INFO 1670 [Timer] /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-12-14 00:00:00.000
 2018-12-13 20:46:30,859 INFO 1670 [Timer] /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-12-14 00:00:01.000
+=======
+>>>>>>> 0318cb340ab81e69c311150ef0eb347ea9916552
+2018-12-13 23:07:14,959 INFO 7691 [Timer] /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute at 2018-12-14 04:30:00.000
+2018-12-13 23:07:14,960 INFO 7691 [Timer] /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-12-14 00:00:00.000
+2018-12-13 23:07:14,961 INFO 7691 [Timer] /Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-12-14 00:00:01.000
