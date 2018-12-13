@@ -95,9 +95,9 @@
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-onerror/config/locales",
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-i18n/config/locales",
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-watcher/config/locales",
+        "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-schedule/config/locales",
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart/config/locales",
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development/config/locales",
-        "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-schedule/config/locales",
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-logrotator/config/locales",
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-static/config/locales",
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-view/config/locales",
@@ -107,6 +107,7 @@
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-view-nunjucks/config/locales",
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-cors/config/locales",
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-sequelize/config/locales",
+        "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-oss/config/locales",
         "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/locales",
         "/Users/abc/Documents/workspace/kaier/adminAPI/config/locales"
       ],
@@ -122,24 +123,6 @@
         "development": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
-    "multipart": {
-      "autoFields": false,
-      "defaultCharset": "utf8",
-      "fieldNameSize": 100,
-      "fieldSize": 102400,
-      "fields": 10,
-      "fileSize": 10485760,
-      "files": 10,
-      "fileExtensions": [],
-      "whitelist": null
-    },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
@@ -148,6 +131,57 @@
       "knex": {
         "file": "/Users/abc/Documents/workspace/kaier/adminAPI/logs/egg-knex.log"
       }
+    },
+    "multipart": {
+      "mode": "file",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": [
+        ".jpg",
+        ".jpeg",
+        ".png",
+        ".gif",
+        ".bmp",
+        ".wbmp",
+        ".webp",
+        ".tif",
+        ".psd",
+        ".svg",
+        ".js",
+        ".jsx",
+        ".json",
+        ".css",
+        ".less",
+        ".html",
+        ".htm",
+        ".xml",
+        ".zip",
+        ".gz",
+        ".tgz",
+        ".gzip",
+        ".mp3",
+        ".mp4",
+        ".avi",
+        ".txt",
+        ""
+      ],
+      "tmpdir": "/var/folders/r5/n06hcbqd7r95ttkzdd3n7bd80000gn/T/egg-multipart-tmp/example",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
     },
     "logrotator": {
       "filesRotateByHour": null,
@@ -249,6 +283,19 @@
       "username": "kaier001",
       "password": "<String len: 15>"
     },
+    "oss": {
+      "default": {
+        "timeout": "60s"
+      },
+      "useAgent": false,
+      "client": {
+        "accessKeyId": "P_8rAw-wQVVhTN9C9plnEkZ1P9LfLQ_zCS-9fV-B",
+        "accessKeySecret": "<String len: 40>",
+        "bucket": "kaier",
+        "endpoint": "pjgs5tghw.bkt.clouddn.com",
+        "timeout": "60s"
+      }
+    },
     "env": "local",
     "name": "example",
     "keys": "<String len: 26>",
@@ -267,7 +314,9 @@
         "egg-cors": "^2.1.1",
         "egg-jwt": "^3.1.1",
         "egg-knex": "^2.0.10",
+        "egg-multipart": "^2.3.0",
         "egg-mysql": "^3.0.0",
+        "egg-oss": "^2.0.0",
         "egg-scripts": "^2.5.0",
         "egg-sequelize": "^4.2.0",
         "egg-static": "^2.1.1",
@@ -375,13 +424,15 @@
         "keepAlive": true,
         "freeSocketKeepAliveTimeout": 4000,
         "maxSockets": 9007199254740991,
-        "maxFreeSockets": 256
+        "maxFreeSockets": 256,
+        "timeout": 30000
       },
       "httpsAgent": {
         "keepAlive": true,
         "freeSocketKeepAliveTimeout": 4000,
         "maxSockets": 9007199254740991,
-        "maxFreeSockets": 256
+        "maxFreeSockets": 256,
+        "timeout": 30000
       }
     },
     "meta": {
@@ -399,6 +450,7 @@
       "session",
       "securities",
       "i18n",
+      "multipart",
       "eggLoaderTrace"
     ],
     "workerStartTimeout": 600000,
@@ -506,16 +558,29 @@
       "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-watcher",
       "version": "3.0.0"
     },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-schedule",
+      "version": "3.4.0"
+    },
     "multipart": {
       "enable": true,
       "package": "egg-multipart",
       "name": "multipart",
       "dependencies": [],
-      "optionalDependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
       "env": [],
       "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
       "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-multipart",
-      "version": "2.1.0"
+      "version": "2.3.0"
     },
     "development": {
       "enable": true,
@@ -531,17 +596,6 @@
       "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
       "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-development",
       "version": "2.4.1"
-    },
-    "schedule": {
-      "enable": true,
-      "package": "egg-schedule",
-      "name": "schedule",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg/config/plugin.js",
-      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-schedule",
-      "version": "3.4.0"
     },
     "logrotator": {
       "enable": true,
@@ -648,6 +702,17 @@
       "from": "/Users/abc/Documents/workspace/kaier/adminAPI/config/plugin.js",
       "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-sequelize",
       "version": "4.2.0"
+    },
+    "oss": {
+      "enable": true,
+      "package": "egg-oss",
+      "name": "oss",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/abc/Documents/workspace/kaier/adminAPI/config/plugin.js",
+      "path": "/Users/abc/Documents/workspace/kaier/adminAPI/node_modules/egg-oss",
+      "version": "2.0.0"
     }
   }
 }

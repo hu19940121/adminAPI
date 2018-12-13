@@ -418,5 +418,17 @@
     "stack": [
       "wrappedController"
     ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/v1/uploadToQiniu/uploadImage",
+    "regexp": "/^\\/api\\/v1\\/uploadToQiniu\\/uploadImage(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
   }
 ]
