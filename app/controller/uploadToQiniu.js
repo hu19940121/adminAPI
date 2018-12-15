@@ -18,7 +18,7 @@ const mac = new qiniu.auth.digest.Mac(accessKey, secretKey);
 const options = {
   scope: 'kaier', //空间名
 };
-const domain = 'http://pjgs5tghw.bkt.clouddn.com'
+const domain = 'http://resource.kaier001.com'
 const putPolicy = new qiniu.rs.PutPolicy(options);
 const uploadToken = putPolicy.uploadToken(mac);
 var formUploader = new qiniu.form_up.FormUploader(config);
