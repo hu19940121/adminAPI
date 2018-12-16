@@ -5,7 +5,7 @@ const Controller = require('egg').Controller;
 		async list() {
 			const { ctx, app } = this
 			// const res = await app.knex('post').join('user','user.id','=','post.publish_id').select();
-			const postList = await app.knex('post').select();
+			const postList = await app.knex('post').select().orderBy('id','desc');
 			const userList = await app.knex('user').select();
 			postList.map(post=>{
 				userList.map(user=>{
@@ -30,7 +30,7 @@ const Controller = require('egg').Controller;
       if (!acceptData) {
         return;
       }
-      acceptData.create_time = new Date().getTime()
+      acceptData.create_time = new Date() //增加创建时间
       const res = await app.knex('post').insert(acceptData)
       let data= {}
       if (res) {

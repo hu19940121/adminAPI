@@ -15,12 +15,7 @@ var formUploader = new qiniu.form_up.FormUploader(config);
 const accessKey = 'P_8rAw-wQVVhTN9C9plnEkZ1P9LfLQ_zCS-9fV-B';
 const secretKey = '3QvYbmb14AR-LRJmhHcHVtq-38bKrkmIM3wI34Rq';
 const mac = new qiniu.auth.digest.Mac(accessKey, secretKey);
-const options = {
-  scope: 'kaier', //空间名
-};
 const domain = 'http://resource.kaier001.com'
-const putPolicy = new qiniu.rs.PutPolicy(options);
-const uploadToken = putPolicy.uploadToken(mac);
 var formUploader = new qiniu.form_up.FormUploader(config);
 
 //生成七牛token
@@ -31,18 +26,27 @@ var formUploader = new qiniu.form_up.FormUploader(config);
         formUploader.putFile(uploadToken, key, localFile, putExtra, function(respErr,
           respBody, respInfo) {
           if (respErr) {
+            console.log('-------------------------------------error',respErr);
             throw respErr;
           }
           if (respInfo.statusCode == 200) {
-            // console.log('成功。。。。。。。');
             resolve(respBody)
           } else {
             reject(respInfo)
-            // console.log(respInfo.statusCode);
-            // console.log(respBody);
+            this.ctx.logger('--------上传失败返回的状态值',respInfo)
+            console.log('---------------respInfo',respInfo);
           }
         });
       })
+    }
+    //获取token
+    getUploadToken(key) {
+      const options = {
+        scope: 'kaier'+":"+ key, //可以覆盖空间里的资源
+      };
+      const putPolicy = new qiniu.rs.PutPolicy(options);
+      const uploadToken = putPolicy.uploadToken(mac);
+      return uploadToken
     }
 		async uploadImage() {
       const { ctx } = this      
@@ -51,7 +55,7 @@ var formUploader = new qiniu.form_up.FormUploader(config);
       // 文件上传
       let result;
         try {
-          // 处理文件，比如上传到云端
+          const uploadToken = this.getUploadToken(file.filename)
           result = await this.uploadFileToQiniu(uploadToken,file.filename,file.filepath,putExtra)          
         } finally {
           // 需要删除临时文件
