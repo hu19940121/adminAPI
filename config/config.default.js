@@ -89,7 +89,8 @@ module.exports = appInfo => {
       '.avi',
       '.txt',
       ''
-    ]
+    ],
+    fileSize: '100mb',
   }
   exports.knex = {
     // database configuration
@@ -128,15 +129,6 @@ module.exports = appInfo => {
     prefix:'/static',
     dir: path.join(appInfo.baseDir, 'app/public')
   }
-  exports.oss = {
-    client: {
-      accessKeyId: 'P_8rAw-wQVVhTN9C9plnEkZ1P9LfLQ_zCS-9fV-B',
-      accessKeySecret: '3QvYbmb14AR-LRJmhHcHVtq-38bKrkmIM3wI34Rq',
-      bucket: 'kaier',
-      endpoint: 'pjgs5tghw.bkt.clouddn.com',
-      timeout: '60s',
-    },
-  };
   
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1532070433309_6169';
