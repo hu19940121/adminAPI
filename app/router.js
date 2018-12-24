@@ -53,4 +53,7 @@ module.exports = app => {
   router.post('/api/v1/post/addPost', controller.post.addPost); // 帖子列表
   router.post('/api/v1/uploadToQiniu/uploadImage', controller.uploadToQiniu.uploadImage); // 上传图片到七牛
 
+  router.get('/api/v1/callback/qq', controller.callback.qq); // qq登录回调
+
+
 };
