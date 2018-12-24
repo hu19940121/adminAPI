@@ -4,6 +4,11 @@ const Controller = require('egg').Controller;
     async qq() {
       const { ctx } = this
       console.log('qqqq',ctx.query);
+      ctx.body = {
+        msg:'success',
+        code:0,
+        data:ctx.query
+      }
       
     }
   }
