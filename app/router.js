@@ -54,6 +54,8 @@ module.exports = app => {
   router.post('/api/v1/uploadToQiniu/uploadImage', controller.uploadToQiniu.uploadImage); // 上传图片到七牛
 
   router.get('/api/v1/callback/qq', controller.callback.qq); // qq登录回调
+  router.get('/api/v1/callback/qqLogin', controller.callback.qqLogin); // qq登录回调
+
 
 
 };
