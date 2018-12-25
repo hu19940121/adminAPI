@@ -5,16 +5,17 @@ const client_secret = '3c4a6dfdde0060a61d2c79f620b2553c'
 
 const Controller = require('egg').Controller;
   class Callback extends Controller {
-    async qqLogin() {
-      const callBackUrl = 'https://www.kaier001.com/api/v1/callback/qq'
-      const step1Url = `https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=${client_id}&redirect_uri=${callBackUrl}&state=qq&scope=get_user_info`
-      // Step1：获取Authorization Code
-      await axios.get(step1Url).then(res=>{
-        console.log('step1返回值',res);
-        // code = res.data.code
-        // state = res.data.state
-      }) 
-    }
+    // async qqLogin() {
+    //   const callBackUrl = 'https://www.kaier001.com/api/v1/callback/qq'
+    //   const step1Url = `https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=${client_id}&redirect_uri=${callBackUrl}&state=qq&scope=get_user_info`
+    //   // Step1：获取Authorization Code
+    //   // window.open(step1Url)
+    //   await axios.get(step1Url).then(res=>{
+    //     console.log('step1返回值',res);
+    //     // code = res.data.code
+    //     // state = res.data.state
+    //   }) 
+    // }
 
     async qq() {
       const { ctx } = this
