@@ -10,7 +10,7 @@ const Controller = require('egg').Controller;
       // Step1：获取Authorization Code
       const callBackUrl = 'https://www.kaier001.com/api/v1/callback/qq'
       const step1Url = `https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=${client_id}&redirect_uri=${callBackUrl}&state=qq&scope=get_user_info`
-      ctx.redirect(step1Url)
+      ctx.unsafeRedirect(step1Url)
     }
     async qq() {
       const { ctx } = this
