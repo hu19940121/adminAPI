@@ -5,14 +5,14 @@ const client_secret = '3c4a6dfdde0060a61d2c79f620b2553c'
 
 const Controller = require('egg').Controller;
   class Callback extends Controller {
-    async qqLogin() {
-      const { ctx } = this
-      // Step1：获取Authorization Code
-      const callBackUrl = 'https://www.kaier001.com/api/v1/callback/qq'
-      const step1Url = `https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=${client_id}&redirect_uri=${callBackUrl}&state=qq&scope=get_user_info`
-      ctx.body = `<meta http-equiv="refresh" content="0; url=${step1Url}" />`
-      // ctx.unsafeRedirect(step1Url)
-    }
+    // async qqLogin() {
+    //   const { ctx } = this
+    //   // Step1：获取Authorization Code
+    //   const callBackUrl = 'https://www.kaier001.com/api/v1/callback/qq'
+    //   const step1Url = `https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=${client_id}&redirect_uri=${callBackUrl}&state=qq&scope=get_user_info`
+    //   ctx.body = `<meta http-equiv="refresh" content="0; url=${step1Url}" />`
+    //   // ctx.unsafeRedirect(step1Url)
+    // }
     async qq() {
       const { ctx } = this
       const code = ctx.query.code
@@ -25,11 +25,7 @@ const Controller = require('egg').Controller;
       await axios.get(step2Url).then(res=>{
         let accessTokenStr = res.data //获取到accessToken字符串
         accessTokenStr.split('&').map(item=>{
-          console.log("item.split('=')[0].toString()",item.split('=')[0].toString());
-          console.log("item.split('=')[0]",item.split('=')[0]);
           let key = item.split('=')[0].toString()
-          console.log("key",key);
-          console.log("typeofkey",typeof(key));
           accessTokenObj[key] = item.split('=')[1]
         })
       })  
@@ -43,7 +39,18 @@ const Controller = require('egg').Controller;
       await axios.get(getUserInfoUrl).then(res=>{
         userInfo = res.data
       })
-      ctx.body = {
+      ctx.session.userInfo = userInfo
+      ctx.redirect('https://www.kaier001.com')
+      // ctx.body = {
+      //   msg:'success',
+      //   code:0,
+      //   userInfo
+      // }
+    }
+    async getUserInfo() { //直接在session取用户数据 - -
+      const userInfo = this.ctx.session.userInfo
+      console.log('-----------userInfo',userInfo);
+      this.ctx.body = {
         msg:'success',
         code:0,
         userInfo
