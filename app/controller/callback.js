@@ -44,7 +44,7 @@ const Controller = require('egg').Controller;
         console.log('获取用户信息res_________',res);
         userInfo = res.data
       })
-      const selectRes = await app.knex('user').select().where('openId',openIdObj.openid)
+      const selectRes = await app.knex('user').select().where('open_id',openIdObj.openid)
       if (selectRes.length > 0) { //如果已经存过数据库了
         ctx.session.userId = selectRes[0].userId
         ctx.redirect('https://www.kaier001.com')
