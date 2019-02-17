@@ -16,6 +16,8 @@ const Controller = require('egg').Controller;
     async qq() {
       const { ctx } = this
       const code = ctx.query.code
+      console.log('code_____',code);
+      
       const callBackUrl = 'https://www.kaier001.com/api/v1/callback/qq'
       //Step2：通过Authorization Code获取Access Token
       const step2Url = `https://graph.qq.com/oauth2.0/token?grant_type=authorization_code&client_id=${client_id}&client_secret=${client_secret}&code=${code}&redirect_uri=${callBackUrl}`
@@ -32,11 +34,14 @@ const Controller = require('egg').Controller;
       // Step3：通过Access Token Code获取openId
       const step3Url = `https://graph.qq.com/oauth2.0/me?access_token=${accessTokenObj.access_token}`
       await axios.get(step3Url).then(res=>{
+        console.log('通过Access Token Code获取openId---------res',res);
+        
         openIdObj = JSON.parse(res.data.replace(/[\r\n]/g,"").match(/^callback\((.*)\);$/)[1]); //callback( {"error":100020,"error_description":"code is reused error"} ) 转为obj
       })
       // Step4: 获取用户信息
       const getUserInfoUrl = `https://graph.qq.com/user/get_user_info?access_token=${accessTokenObj.access_token}&oauth_consumer_key=${client_id}&openid=${openIdObj.openid}`
       await axios.get(getUserInfoUrl).then(res=>{
+        console.log('获取用户信息res_________',res);
         userInfo = res.data
       })
       ctx.session.userInfo = userInfo
