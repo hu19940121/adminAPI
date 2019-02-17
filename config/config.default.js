@@ -3,25 +3,25 @@ const path = require('path');
 
 module.exports = appInfo => {
   const config = exports = {
-    mysql: {
-      // 单数据库信息配置
-      client: {
-        // host
-        host: '106.13.10.101',
-        // 端口号
-        port: '3306',
-        // 用户名
-        user: 'kaier001',
-        // 密码
-        password: 'hushihao5549003',
-        // 数据库名
-        database: 'kaier',
-      },
-      // 是否加载到 app 上，默认开启
-      app: true,
-      // 是否加载到 agent 上，默认关闭
-      agent: false,
-    },
+    // mysql: {
+    //   // 单数据库信息配置
+    //   client: {
+    //     // host
+    //     host: '106.13.10.101',
+    //     // 端口号
+    //     port: '3306',
+    //     // 用户名
+    //     user: 'kaier001',
+    //     // 密码
+    //     password: 'hushihao5549003',
+    //     // 数据库名
+    //     database: 'kaier',
+    //   },
+    //   // 是否加载到 app 上，默认开启
+    //   app: true,
+    //   // 是否加载到 agent 上，默认关闭
+    //   agent: false,
+    // },
     // multipart : {
     //   mode: 'file', //启用file模式
     // },
@@ -52,15 +52,15 @@ module.exports = appInfo => {
       allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS',
   };
 
-  config.sequelize = {
-    dialect: 'mysql',
-    host: '106.13.10.101',
-    port: 3306,
-    database: 'kaier',
-    username: 'kaier001',
-    password: 'hushihao5549003'
+  // config.sequelize = {
+  //   dialect: 'mysql',
+  //   host: '106.13.10.101',
+  //   port: 3306,
+  //   database: 'kaier',
+  //   username: 'kaier001',
+  //   password: 'hushihao5549003'
 
-  }
+  // }
   exports.multipart = {
     mode: 'file', //启用file模式
     whitelist: [

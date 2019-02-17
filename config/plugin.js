@@ -10,10 +10,10 @@ exports.jwt = {
   enable: true,
   package: 'egg-jwt',
 };
-exports.knex = {
-  enable: true,
-  package: 'egg-knex',
-};
+// exports.knex = {
+//   enable: true,
+//   package: 'egg-knex',
+// };
 
 exports.nunjucks = {
   enable: true,
@@ -29,10 +29,10 @@ exports.cors = {
   enable: true,
   package: 'egg-cors',
 };
-exports.sequelize = {
-  enable: true,
-  package: 'egg-sequelize',
-};
+// exports.sequelize = {
+//   enable: true,
+//   package: 'egg-sequelize',
+// };
 exports.oss = {
   enable: true,
   package: 'egg-oss',

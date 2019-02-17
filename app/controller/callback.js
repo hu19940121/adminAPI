@@ -41,11 +41,6 @@ const Controller = require('egg').Controller;
       })
       ctx.session.userInfo = userInfo
       ctx.redirect('https://www.kaier001.com')
-      // ctx.body = {
-      //   msg:'success',
-      //   code:0,
-      //   userInfo
-      // }
     }
     async getUserInfo() { //直接在session取用户数据 - -
       const userInfo = this.ctx.session.userInfo

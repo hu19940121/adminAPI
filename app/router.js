@@ -56,7 +56,8 @@ module.exports = app => {
   router.get('/api/v1/callback/qq', controller.callback.qq); // qq登录回调
   router.get('/api/v1/callback/getUserInfo', controller.callback.getUserInfo); // 获取用户信息
 
-
+  //  生成二维码
+  router.get('/api/v1/ercode/createErcode', controller.ercode.createErcode); 
 
 
 };
