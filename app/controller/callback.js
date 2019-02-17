@@ -15,7 +15,7 @@ const Controller = require('egg').Controller;
     //   // ctx.unsafeRedirect(step1Url)
     // }
     async qq() {
-      const { ctx } = this
+      const { ctx,app } = this
       const code = ctx.query.code
       console.log('code_____',code);
       
