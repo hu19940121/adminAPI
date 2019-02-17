@@ -1,4 +1,5 @@
 'user strict'
+const uuidv1 = require('uuid/v1'); //生成userId
 const axios = require('axios');
 const client_id = '101533733' //应用的appId
 const client_secret = '3c4a6dfdde0060a61d2c79f620b2553c'
@@ -44,17 +45,40 @@ const Controller = require('egg').Controller;
         console.log('获取用户信息res_________',res);
         userInfo = res.data
       })
-      ctx.session.userInfo = userInfo
+      let userId = uuidv1();
+      let saveInfo = {
+        userId,
+        nickname: userInfo.nickname,
+        city: userInfo.city,
+        gender: userInfo.gender,
+        province: userInfo.province,
+        avatar: userInfo.figureurl_qq_2
+      }
+      const res = await app.knex('user').insert(saveInfo)
+      ctx.session.userId = saveInfo.userId
+
+      // ctx.session.userInfo = userInfo
       ctx.redirect('https://www.kaier001.com')
     }
     async getUserInfo() { //直接在session取用户数据 - -
-      const userInfo = this.ctx.session.userInfo
-      console.log('-----------userInfo',userInfo);
-      this.ctx.body = {
-        msg:'success',
-        code:0,
-        userInfo
+      const { ctx, app } = this
+      let bodyObj = {}
+      if (ctx.session.userId) {
+        const res = await app.knex('user').select().where('userId',ctx.session.userId)
+        const userInfo = res[0]
+        bodyObj = {
+          msg:'success',
+          code:0,
+          userInfo
+        }
+        console.log('有session查出来的',res[0]);
+      } else {
+        bodyObj = {
+          msg:'未登录',
+          code:2,
+        }
       }
+      ctx.body = bodyObj
     }
   }
 module.exports = Callback

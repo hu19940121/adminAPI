@@ -99,15 +99,15 @@ module.exports = appInfo => {
       dialect: 'mysql',
       connection: {
         // host
-        host: '106.13.10.101',
+        host: '47.104.191.55',
         // port
         port: '3306',
         // username
-        user: 'kaier001',
+        user: 'root',
         // password
-        password: 'hushihao5549003',
+        password: '!hblsqt',
         // database
-        database: 'kaier',
+        database: 'kaier2',
       },
       // connection pool
       pool: { min: 0, max: 5 },

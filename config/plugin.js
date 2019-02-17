@@ -10,10 +10,10 @@ exports.jwt = {
   enable: true,
   package: 'egg-jwt',
 };
-// exports.knex = {
-//   enable: true,
-//   package: 'egg-knex',
-// };
+exports.knex = {
+  enable: true,
+  package: 'egg-knex',
+};
 
 exports.nunjucks = {
   enable: true,
