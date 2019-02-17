@@ -36,7 +36,6 @@ const Controller = require('egg').Controller;
       const step3Url = `https://graph.qq.com/oauth2.0/me?access_token=${accessTokenObj.access_token}`
       await axios.get(step3Url).then(res=>{
         console.log('通过Access Token Code获取openId---------res',res);
-        
         openIdObj = JSON.parse(res.data.replace(/[\r\n]/g,"").match(/^callback\((.*)\);$/)[1]); //callback( {"error":100020,"error_description":"code is reused error"} ) 转为obj
       })
       // Step4: 获取用户信息
@@ -45,20 +44,25 @@ const Controller = require('egg').Controller;
         console.log('获取用户信息res_________',res);
         userInfo = res.data
       })
-      let userId = uuidv1();
-      let saveInfo = {
-        userId,
-        nickname: userInfo.nickname,
-        city: userInfo.city,
-        gender: userInfo.gender,
-        province: userInfo.province,
-        avatar: userInfo.figureurl_qq_2
+      const selectRes = await app.knex(user).select().where('openId',openIdObj.openid)
+      if (selectRes.length > 0) { //如果已经存过数据库了
+        ctx.session.userId = selectRes[0].userId
+        ctx.redirect('https://www.kaier001.com')
+      } else {
+        let userId = uuidv1();
+        let saveInfo = {
+          userId,
+          openId: openIdObj.openid,
+          nickname: userInfo.nickname,
+          city: userInfo.city,
+          gender: userInfo.gender,
+          province: userInfo.province,
+          avatar: userInfo.figureurl_qq_2
+        }
+        const res = await app.knex('user').insert(saveInfo)
+        ctx.session.userId = saveInfo.userId
+        ctx.redirect('https://www.kaier001.com')
       }
-      const res = await app.knex('user').insert(saveInfo)
-      ctx.session.userId = saveInfo.userId
-
-      // ctx.session.userInfo = userInfo
-      ctx.redirect('https://www.kaier001.com')
     }
     async getUserInfo() { //直接在session取用户数据 - -
       const { ctx, app } = this
